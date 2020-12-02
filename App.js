@@ -9,8 +9,8 @@ export default function App() {
   return (
     <ScrollView style={styles.container}>
       {/* <StatusBar style="auto" /> */}
-      {/* <HotelView /> */}
-      <ProfileView />
+      <HotelView />
+      {/* <ProfileView /> */}
     </ScrollView>
   );
 }
