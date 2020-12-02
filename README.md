@@ -21,5 +21,7 @@ Run `expo start` on git bash to view app on emulator
 
 ##Preview
 <p align="center">
-<img  src="readmeAssets/preview1.jpg" width="80%">
+<img  src="readmeAssets/preview1.jpeg" width="80%">
+<img  src="readmeAssets/preview2.jpeg" width="80%">
+<img  src="readmeAssets/preview3.jpeg" width="80%">
 </p>
