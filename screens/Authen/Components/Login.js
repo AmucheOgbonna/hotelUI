@@ -4,26 +4,19 @@ import { gs, colors } from "../../../style"
 
 export default function Login() {
     return (
-        <View style={styles.container}>
-            <StatusBar barStyle="auto" />
-            <View style={styles.greetCont}>
-                <ImageBackground source={require("../../../assets/Rect29.png")} style={styles.imagegreetCont} />
-                <View style={styles.smallerCont}>
-                    <Text>My Name</Text>
-                </View>
-            </View>
-        </View>
+
+        <ImageBackground source={require("../../../assets/Rect29.png")} style={styles.container}>
+            <Text>My name</Text>
+        </ImageBackground>
+
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "pink",
-    },
-    greetCont: {
-        backgroundColor: colors.black,
-    },
-    imagegreetCont: {
-        width: "100%",
+        width: 250,
+        height: 100,
+        backgroundColor: "green",
+        flex: 1,
     }
 })

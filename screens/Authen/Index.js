@@ -1,17 +1,19 @@
 import React from 'react'
-import { ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StatusBar, StyleSheet, Text, View, ImageBackground } from 'react-native'
+import { colors } from '../../style'
 import Login from "./Components/Login"
 export default function Index() {
     return (
-        <ScrollView styles={styles.container}>
+        <View styles={styles.container}>
             <StatusBar barStyle="auto" />
             <Login />
-        </ScrollView>
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+
+
     }
 })
