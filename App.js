@@ -1,11 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import { colors } from './style'
+import Authen from "./screens/Authen/Index"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="auto" />
+      <Authen />
 
     </View>
   );
@@ -14,6 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.darkBg
+    backgroundColor: colors.lightWhite
+
   },
 });
