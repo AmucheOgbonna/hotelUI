@@ -17,5 +17,22 @@ export const colors = {
 
 }
 export const gs = StyleSheet.create({
-
+    button: {
+        backgroundColor: colors.hotPinkD,
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 25,
+        marginVertical: 5,
+    },
+    line: {
+        borderBottomWidth: 1,
+        width: "80%",
+        borderBottomColor: colors.ash,
+        paddingBottom: 5,
+    },
+    smallText: {
+        fontWeight: "bold",
+        color: colors.ash,
+        fontSize: 15,
+    }
 })

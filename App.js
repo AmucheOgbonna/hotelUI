@@ -1,21 +1,19 @@
-import React from 'react';
-import { StyleSheet, Text, View, StatusBar } from 'react-native';
-import { colors, gs } from './style'
-import Authen from "./screens/Authen"
+import React from 'react'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
+import { colors } from "./style"
+import Index from "./screens/Authenticate/Index"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Authen />
+      {/* <StatusBar barStyle="light-content" /> */}
+      <Index />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "yellow",
-
-  },
-});
+  }
+})
