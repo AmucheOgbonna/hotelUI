@@ -6,7 +6,7 @@
 </p>
 
 ---
-The Hotel UI, is just basically displaying the user interface of a hotel app. I replicate the UI from a tutorial, to further sharpen my skills in creating UI with react native.
+The Hotel UI, is just basically displaying the user interface of a hotel app. I replicated the UI from an online tutorial, to further sharpen my skills in creating UI with react native.
 
 ##Project SetUp
 ```
