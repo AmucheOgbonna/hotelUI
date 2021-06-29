@@ -7,7 +7,7 @@
 
 ---
 The Hotel UI, is just basically displaying the user interface of a hotel app. I replicated the UI from an online tutorial, to further sharpen my skills in creating UI with react native.
-
+This is another UI replicated, I achieved this using figma https://www.figma.com/file/MZDhTPu3AYrWOoH7EaK1wR/JSNReplicated?node-id=0%3A1
 ##Project SetUp
 ```
 
