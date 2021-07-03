@@ -1,4 +1,4 @@
-<h1 align="center">Hotel UI</h1>
+<h1 align="center">JSN</h1>
 <p>
 <img src="https://img.shields.io/badge/madeby-AmucheOgbonna-<green>">
 <img src="https://img.shields.io/badge/expo-~38.0.8-<blue>">
